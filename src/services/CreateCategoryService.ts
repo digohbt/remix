@@ -15,4 +15,5 @@ class CreateCategoryService {
     this.categoriesRepository.create({ name, description });
   }
 }
+// eslint-disable-next-line prettier/prettier
 export { CreateCategoryService };
